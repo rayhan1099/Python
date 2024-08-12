@@ -1,0 +1,10 @@
+Dict={'rayhan':99,'arman':56,'sanvi':59,'shaikot':57}
+print((Dict['arman']))
+set1={'rayhan':99,'arman':56,'sanvi':59}
+set2={'shaikot':57}
+x=set1.copy()
+y=set2.copy()
+print(x)
+print(y)
+Dict.update({'mehedi':23})
+print(Dict)
